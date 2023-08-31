@@ -1,0 +1,9 @@
+- En caso de no tener instalado MySql restaurar la imagen de docker usar el comando [ docker compose up ] en la ruta de la carpeta db
+- Restaurar el script de la base de datos [db_wv.sql] crear una DB con el mismo nombre
+- En el application.properties de cada proyecto verificar los datos de conexion para que hagan match con el suyo
+
+Para probar las apis utilizar las rutas
+CART
+http://localhost:8080/swagger-ui/index.html
+PRODUCTS
+http://localhost:8081/swagger-ui/index.html
